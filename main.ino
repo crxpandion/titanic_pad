@@ -1,15 +1,6 @@
 #include <MIDI.h>
 
 MIDI_CREATE_DEFAULT_INSTANCE();
-/*
- * Ardrumo sketch
- *
- * Use with the Ardrumo software here:
- * http://code.google.com/p/ardrumo/
- * This is designed to let an Arduino act as a drum machine
- * in GarageBand (sorry, Mac OS X only).
- */
-
 
 #define LEDPIN     13     // status LED pin
 #define PIEZOTHRESHOLD 5  // analog threshold for piezo sensing
